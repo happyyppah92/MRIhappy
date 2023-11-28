@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<args version="0.0.1">
+<em>
+	 <widget>tabwidget</widget>
+	 <num>7</num>
+	 <name>tab</name>
+     <default>0</default>
+     <editable>1</editable>
+     <tips>Sequence Para</tips>
+	 <width>600</width>
+	 <height>600</height>
+     <scope>
+         <tab0>Routline</tab0>
+         <tab1>Contrast</tab1>
+		 <tab2>Resolution</tab2>
+         <tab3>Geometry</tab3>
+		 <tab4>System</tab4>
+		 <tab5>Physio</tab5>
+		 <tab6>Other</tab6>
+     </scope>
+ </em>
+   	<em>
+	 <tabPosition>0</tabPosition>
+	 <widget>spin_box</widget>
+	 <indexH>0</indexH>
+	 <indexW>0</indexW>
+	 <name>Slice Group</name>
+	 <labelname>GE</labelname>
+	 <unitname></unitname>
+     <default>1</default>
+     <editable>1</editable>
+     <tips>Slice Group</tips>
+	 <datatype>int</datatype>
+	 <width>100</width>
+	 <height>20</height>
+	 <scope>
+         <maxvalue>1000</maxvalue>
+         <minvalue>1</minvalue>
+		 <singlestepvalue>1</singlestepvalue>
+     </scope>
+ </em>
+	<em>
+	 <tabPosition>0</tabPosition>
+	 <widget>line_edit</widget>
+	 <indexH>0</indexH>
+	 <indexW>3</indexW>
+	 <name>TELineEdit</name>
+	 <labelname>TE</labelname>
+	 <unitname>ms</unitname>
+     <default>20</default>
+     <editable>1</editable>
+     <tips>TE value</tips>
+	 <datatype>float</datatype>
+	 <width>100</width>
+	 <height>20</height>
+     <scope>
+         <maxvalue>10000</maxvalue>
+         <minvalue>1</minvalue>
+     </scope>
+ </em>
+     <em>
+	 <tabPosition>0</tabPosition>
+ 	 <widget>line_edit</widget>
+	 <indexH>1</indexH>
+	 <indexW>0</indexW>
+	 <name>TRLineEdit</name>
+	 <labelname>TR</labelname>
+	 <unitname>ms</unitname>
+     <default>1000</default>
+     <editable>1</editable>
+     <tips>TR value</tips>
+	 <datatype>float</datatype>
+	 <width>100</width>
+	 <height>20</height>
+     <scope>
+         <maxvalue>10000</maxvalue>
+         <minvalue>1</minvalue>
+     </scope>
+</em>
+ 
+ 	<em>
+	 <tabPosition>0</tabPosition>
+	 <widget>combo_box</widget>
+	 <indexH>1</indexH>
+	 <indexW>3</indexW>
+	 <name>democombo_box</name>
+	 <labelname>comobox</labelname>
+	 <unitname>ms</unitname>
+     <default>2</default>
+     <editable>1</editable>
+     <tips>TE value</tips>
+	 <datatype>float</datatype>
+	 <width>100</width>
+	 <height>20</height>
+     <scope>
+         <item0>左</item0>
+         <item1>右</item1>
+		 <item2>上</item2>
+         <item3>下</item3>
+     </scope>
+ </em>
+ 
+  	<em>
+	 <tabPosition>0</tabPosition>
+	 <widget>check_box</widget>
+	 <indexH>2</indexH>
+	 <indexW>0</indexW>
+	 <name>democheck_box</name>
+	 <labelname>emocheck</labelname>
+	 <unitname></unitname>
+     <default>1</default>
+     <editable>1</editable>
+     <tips>TE value</tips>
+	 <datatype>!Tristate</datatype>
+	 <width>100</width>
+	 <height>20</height>
+ </em>
+ 
+  	<em>
+	 <tabPosition>0</tabPosition>
+	 <widget>spin_box</widget>
+	 <indexH>2</indexH>
+	 <indexW>3</indexW>
+	 <name>demospin_box</name>
+	 <labelname>emospin_box</labelname>
+	 <unitname>ms</unitname>
+     <default>20</default>
+     <editable>1</editable>
+     <tips>TE value</tips>
+	 <datatype>int</datatype>
+	 <width>100</width>
+	 <height>20</height>
+	 <scope>
+         <maxvalue>10000</maxvalue>
+         <minvalue>0</minvalue>
+		 <singlestepvalue>10</singlestepvalue>
+     </scope>
+ </em>
+    </args>

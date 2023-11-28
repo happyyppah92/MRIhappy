@@ -1,0 +1,14 @@
+GeneratedFiles
+
+*.sdf
+*.opensdf
+*.exe
+*.db
+*.obj
+*.tlog
+*.log
+*.ilk
+*.exp
+*.cache
+*.mri
+*.data
