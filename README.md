@@ -11,17 +11,17 @@ Visualization function: A good simulation software should have powerful visualiz
 Rich teaching resources: In addition to the software itself, rich teaching resources such as tutorials, cases, and experimental guidance should be provided to help learners better grasp magnetic resonance knowledge.
 
 #### References
-1.  K-space Explorer project [](https://github.com/birogeri/kspace-explorer)
-2.  mrisim [](https://www.mrisim.org/manual.php)
+1.  K-space Explorer project [ K-space](https://github.com/birogeri/kspace-explorer)
+2.  mrisim [mrisim](https://www.mrisim.org/manual.php)
 
 #### Image
-[](https://github.com/happyyppah92/MRIhappy/blob/main/doc/image.png)
+![](https://github.com/happyyppah92/MRIhappy/blob/main/doc/image.png)
 
 #### Physic
-[](https://github.com/happyyppah92/MRIhappy/blob/main/doc/physic.png)
+![](https://github.com/happyyppah92/MRIhappy/blob/main/doc/physic.png)
 
 #### K-Space
-[](https://github.com/happyyppah92/MRIhappy/blob/main/doc/kspace.png)
+![](https://github.com/happyyppah92/MRIhappy/blob/main/doc/kspace.png)
 
 
 
